@@ -7,6 +7,12 @@
   justify-content: center;
   align-items: center;
 }
+.coin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .main-card {
   background-color: #ffffff;
   text-align: center;
@@ -29,4 +35,9 @@ button {
   border-radius: 5px;
   border: 0px;
   height: 30px;
+  width: 100px;
+}
+.coinImage {
+  height: 200px;
+  width: 200px;
 }
